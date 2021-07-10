@@ -27,7 +27,7 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Route render={({ history }) => <SearchBox history={history} />} />
             <Nav className="ml-auto">
-              <LinkContainer style={{ margin: "0 auto" }} to="/Home">
+              <LinkContainer style={{ margin: "0 auto" }} to="/">
                 <Nav.Link>
                   <i className="fas fa-home"></i> Home
                 </Nav.Link>
